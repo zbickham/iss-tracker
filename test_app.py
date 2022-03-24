@@ -1,14 +1,6 @@
 import pytest
-from app import *
-load_data()
-
-def test_epoch_data():
-    with pytest.raises(ValueError):
-        epoch_data('test')
-
-def test_country_data():
-    with pytest.raises(TypeError):
-        country_data('test')
+from app import load_data, help, get_epochs, epoch_data, get_countries, country_data,\
+    get_regions, region_data, get_cities, city_data
 
 def test_region_data():
     with pytest.raises(TypeError):

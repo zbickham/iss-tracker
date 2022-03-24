@@ -1,5 +1,4 @@
 from flask import Flask, request
-import xmltodict
 import json
 import logging
 import socket
