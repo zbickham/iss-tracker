@@ -95,3 +95,7 @@ test_app.py ...                                                                 
 
 ## How to Interpret the Results
 By using the application, you can discover interesting data about ISS positions and sightings. If you use one of the above commands that does not specify a location, the application will return a list of all of the information for that type (epochs, countries, regions, or cities). However, if you specify a location that is found in the data, the application will return specific information for that epoch or location. When querying positional and velocity data with the application, data will be returned as x, y, and z coordinates for position (in km) and x_dot, y_dot, and z_dot coordinates for velocity (in km/s). When querying the ISS sighting data, information suh as region, city, spacecraft, sighting date, duration in minutes, and max elevation will be returned.
+
+## Citation
+Link for the Public Distribution File: https://nasa-public-data.s3.amazonaws.com/iss-coords/2022-02-13/ISS_OEM/ISS.OEM_J2K_EPH.xml
+Link for XMLsightingData_citiesINT03: https://nasa-public-data.s3.amazonaws.com/iss-coords/2022-02-13/ISS_sightings/XMLsightingData_citiesINT03.xml
